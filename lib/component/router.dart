@@ -6,6 +6,8 @@ class MyRouter extends PageRouteBuilder {
   static const String initialRoute = '/';
   static const String splashScreenRoute = '/splashScreen';
   static const String galleryHomeScreenRoute = '/galleryHome';
+  static const String cameraScreenRoute = '/camera';
+  static const String imagePickerScreenRoute = '/imagePicker';
 
   static Route<dynamic> generateRoute(RouteSettings settings) {
     dynamic args = settings.arguments ?? {};
